@@ -16,7 +16,7 @@ public class Shuffle {
 
 		}
 
-		public String shuffleCase(String word) {
+		public String shuffletest(String word) {
 			String temp = "";
 			for (int i = 0; i < word.length(); i++) {
 				if (i % 2 == 0) {
@@ -51,7 +51,7 @@ public class Shuffle {
 			if (word.length() % 2 != 0)
 				temp += word.charAt(word.length() / 2);
 			System.out.println(temp);
-			return shuffleCase(temp);
+			return shuffletest(temp);
 		}
 	}
 
