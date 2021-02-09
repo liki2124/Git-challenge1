@@ -15,7 +15,7 @@ public class Shuffle {
 			scan.close();
 
 		}
-
+                     //method of shuffletest
 		public String shuffletest(String word) {
 			String temp = "";
 			for (int i = 0; i < word.length(); i++) {
